@@ -1,9 +1,22 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primarios:  #ffc107;
+    --secundario: #AA00AA;
+    --terciario: #AA00AA;
+    --primo:#00AAAA;
+
+
+}
+
 h1{
-    color:slateblue; 
-    text-align:center;
+    color: var(--oscuro);
+    text-align: center;
+    font-family: 'Krub', sans-serif;
+
 }
 h2{
-    color: red;
+    color: var(--primarios);
     text-align: center;
     text-transform: uppercase;
 }
@@ -16,7 +29,7 @@ h3{
 }
 h1 samp{
 
-color:rgb(214, 252, 0);
+color:var(--oscuro);
 font-size: 2rem;
 }
 html{
@@ -28,4 +41,14 @@ body{
 h1.an{
     color:rgb(21, 221, 64); 
     text-align:center;
+}
+.nav-bg{
+    background-color: var(--primarios);
+}
+.contenedor{
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+.navegacion-principal{
+    background-color: var(--primo);
 }
